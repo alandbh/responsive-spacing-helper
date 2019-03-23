@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Responsive spacing helper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/demo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="jumbotron">
+                    <h1>Spacing helpers</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="bg-primary">
+                    No class
+                </div>
+                <div class="bg-primary m-xs-t-20">
+                    Margin-top: 20px
+                </div>
+                <div class="bg-primary m-xs-t-40 p-xs-l-20">
+                    Margin-top: 40px and padding-left 20px
+                </div>
+                <div class="bg-primary m-20 p-20">
+                    20px of margin and padding for all directions and screen sizes
+                </div>
+                <div class="bg-primary m-20 p-20 m-xs-t-50">
+                    20px of margin and padding for all directions and screen sizes, however I put a <code>.m-xs-t-50</code> class to override the general one.
+                </div>
+                <div class="bg-primary m-20 p-20 m-xs-t-5 m-sm-t-50">
+                    20px of margin and padding for all directions and screen sizes, however I put a <code>.m-xs-t-5</code> class to override the general one on x-small screens and <code>.m-sm-t-50</code> to apply 50 pixels of margin-top only for small and higher.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
