@@ -22,6 +22,11 @@ The class-name is composed by 4 parameters, separated by dash "-":
 
 The `...-xs-...` parameter applies the margin/padding for all screen sizes.
 
+## Usage
+1. Download the `_responsive-spacing-helpers.scss` and place it inside your SASS folder structure.
+2. Import `_responsive-spacing-helpers.scss` in your main SCSS file. (see `demo.scss`).
+3. That's it! You are all set to use the generated classes in your HTML.
+
 This script was inspired by the great work of: 
 - _spacing-helpers.scss (https://gist.github.com/jacurtis/30da4bf9a6c9b9b5cc0aebac512ca7c9) and 
 - ez-space-css-repo (https://github.com/dmanzer2/ez-space-css-repo).
