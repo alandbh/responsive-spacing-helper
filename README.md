@@ -24,7 +24,7 @@ The `...-xs-...` parameter applies the margin/padding for all screen sizes.
 
 ## Usage
 1. Download the `_responsive-spacing-helpers.scss` and place it inside your SASS folder structure.
-2. Import `_responsive-spacing-helpers.scss` in your main SCSS file. (see `demo.scss`).
+2. Import `_responsive-spacing-helpers.scss` in your main SCSS file, like `@import 'responsive-spacing-helpers';` (see `demo.scss`).
 3. That's it! You are all set to use the generated classes in your HTML.
 
 This script was inspired by the great work of: 
